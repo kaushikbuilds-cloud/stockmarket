@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+reports/figures/*
+reports/*.csv
+
+# Offline bulk dataset (Kaggle jacksoncrow/stock-market-dataset, ~2.6GB) --
+# too large to commit; download separately, see README "Offline Dataset".
+data/stocks/
+data/etfs/
+data/symbols_valid_meta.csv
+
+.streamlit/
